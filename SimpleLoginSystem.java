@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 public class SimpleLoginSystem { 
     //Class variables to store user information 
-    private String username;
-    private String password;
-    private String cellNumber;
-    private String firstName;
-    private String lastName;
+    String username;
+    String password;
+    String cellNumber;
+    String firstName;
+    String lastName;
     
     //Scanner object for user input
     private Scanner scanner = new Scanner(System.in);
@@ -153,6 +153,13 @@ public class SimpleLoginSystem {
             System.out.println("Username or password incorrect.Please enter correct credentials");
         }
     }
+
+    boolean loginUser(String wrong, String pass123) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    
+    }
     
     
-}
+
